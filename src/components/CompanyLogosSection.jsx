@@ -1,30 +1,28 @@
 import { motion } from 'framer-motion'
 import { Building2 } from 'lucide-react'
 
-// Import company logos
+// Import company logos from src/assets
 import upstoxLogo from '../assets/Upstox.jfif'
-import angelOneLogo from '../assets/Angel Broking.jfif'
-import hdfcLogo from '../assets/HDFC BANK LOGO.jfif'
-import downloadLogo1 from '../assets/download.jfif'
-import downloadLogo2 from '../assets/download (1).jfif'
-import sbiLogo from '../assets/State Bank of India (SBI) Logo Vector.jfif'
-import pnbLogo from '../assets/Download Punjab national bank, pnb bank logo free vector.jfif'
-// Note: Files with special characters in names cause Vite errors, using alternative logos
-import axisBankLogo from '../assets/download.jfif'
-import bankOfBarodaLogo from '../assets/download.jfif'
+import angelOneLogo from '../assets/angelone.jfif'
+import hdfcLogo from '../assets/hdfc.jfif'
+import pnbLogo from '../assets/pnb.jfif'
+import sbiLogo from '../assets/sbi.jfif'
+// Using available logos as placeholders
+import downloadLogo1 from '../assets/flipcart.jfif'
+import downloadLogo2 from '../assets/paytm.jfif'
 
 const CompanyLogosSection = () => {
   const companies = [
     { name: 'Upstox', logo: upstoxLogo },
     { name: 'Angel One', logo: angelOneLogo },
     { name: 'HDFC Bank', logo: hdfcLogo },
-    { name: 'ICICI Direct', logo: axisBankLogo },
+    { name: '5 Paisa', logo: pnbLogo },
+    { name: 'ICICI Direct', logo: downloadLogo1 },
     { name: 'M Stock', logo: downloadLogo1 },
     { name: 'Groww', logo: downloadLogo2 },
     { name: 'Kotak Mahindra Bank', logo: sbiLogo },
-    { name: '5 Paisa', logo: pnbLogo },
-    { name: 'AU Finance Bank', logo: bankOfBarodaLogo },
-    { name: 'Yes Bank', logo: axisBankLogo },
+    { name: 'AU Finance Bank', logo: downloadLogo1 },
+    { name: 'Yes Bank', logo: downloadLogo1 },
   ]
 
   // Duplicate logos for seamless infinite loop

@@ -7,16 +7,15 @@ import {
 import Button from '../components/Button'
 import Card from '../components/Card'
 
-// Import company logos directly
+// Import company logos directly from src/assets
 import upstoxLogo from '../assets/Upstox.jfif'
-import angelOneLogo from '../assets/Angel Broking.jfif'
-import hdfcLogo from '../assets/HDFC BANK LOGO.jfif'
-import pnbLogo from '../assets/Download Punjab national bank, pnb bank logo free vector.jfif'
-// Using alternative logos for files with special characters in names
-import bankOfBarodaLogo from '../assets/download.jfif'
-import axisBankLogo from '../assets/download.jfif'
-import downloadLogo1 from '../assets/download.jfif'
-import downloadLogo2 from '../assets/download (1).jfif'
+import angelOneLogo from '../assets/angelone.jfif'
+import hdfcLogo from '../assets/hdfc.jfif'
+import pnbLogo from '../assets/pnb.jfif'
+import sbiLogo from '../assets/sbi.jfif'
+// Using available logos as placeholders
+import downloadLogo1 from '../assets/flipcart.jfif'
+import downloadLogo2 from '../assets/paytm.jfif'
 
 const About = () => {
   const stats = [
@@ -31,12 +30,12 @@ const About = () => {
     { name: 'Angel One', accounts: '7000+', since: '2021', logo: angelOneLogo },
     { name: 'HDFC Bank', accounts: '5500+', since: '2021', logo: hdfcLogo },
     { name: '5 Paisa', accounts: '7000+', since: '2021', logo: pnbLogo },
-    { name: 'ICICI Direct', accounts: '8000+', since: '2021', logo: axisBankLogo },
+    { name: 'ICICI Direct', accounts: '8000+', since: '2021', logo: downloadLogo1 },
     { name: 'M Stock', accounts: '7000+', since: '2021', logo: downloadLogo1 },
     { name: 'Groww', accounts: '3000+', since: '2021', logo: downloadLogo2 },
-    { name: 'AU Finance Bank', accounts: '4000+', since: '2021', logo: bankOfBarodaLogo },
-    { name: 'Kotak Mahindra Bank', accounts: '4000+', since: '2021', logo: axisBankLogo },
-    { name: 'Yes Bank', accounts: '1000+', since: '2023', logo: bankOfBarodaLogo },
+    { name: 'AU Finance Bank', accounts: '4000+', since: '2021', logo: downloadLogo1 },
+    { name: 'Kotak Mahindra Bank', accounts: '4000+', since: '2021', logo: sbiLogo },
+    { name: 'Yes Bank', accounts: '1000+', since: '2023', logo: downloadLogo1 },
   ]
 
   const purposes = [
