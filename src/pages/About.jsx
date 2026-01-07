@@ -7,15 +7,27 @@ import {
 import Button from '../components/Button'
 import Card from '../components/Card'
 
-// Import company logos directly from src/assets
+// Import all company logos from src/assets
 import upstoxLogo from '../assets/Upstox.jfif'
 import angelOneLogo from '../assets/angelone.jfif'
 import hdfcLogo from '../assets/hdfc.jfif'
 import pnbLogo from '../assets/pnb.jfif'
 import sbiLogo from '../assets/sbi.jfif'
-// Using available logos as placeholders
-import downloadLogo1 from '../assets/flipcart.jfif'
-import downloadLogo2 from '../assets/paytm.jfif'
+import airtelLogo from '../assets/airtell.jfif'
+import bigbasketLogo from '../assets/bigbasket.jfif'
+import blinkitLogo from '../assets/blinkit.jfif'
+import flipcartLogo from '../assets/flipcart.jfif'
+import jioLogo from '../assets/jio.jfif'
+import ltLogo from '../assets/lt.jfif'
+import mahindraLogo from '../assets/mahindra.jfif'
+import meeshoLogo from '../assets/meesho.jfif'
+import myntraLogo from '../assets/myntra.jfif'
+import paytmLogo from '../assets/paytm.jfif'
+import phonepeLogo from '../assets/phonepe.jfif'
+import swiggyLogo from '../assets/swiggy.jfif'
+import vodafoneLogo from '../assets/vodafone.jfif'
+import zeptoLogo from '../assets/zepto.jfif'
+import zomatoLogo from '../assets/zomato.jfif'
 
 const About = () => {
   const stats = [
@@ -29,13 +41,23 @@ const About = () => {
     { name: 'Upstox', accounts: '5000+', since: '2021', logo: upstoxLogo },
     { name: 'Angel One', accounts: '7000+', since: '2021', logo: angelOneLogo },
     { name: 'HDFC Bank', accounts: '5500+', since: '2021', logo: hdfcLogo },
-    { name: '5 Paisa', accounts: '7000+', since: '2021', logo: pnbLogo },
-    { name: 'ICICI Direct', accounts: '8000+', since: '2021', logo: downloadLogo1 },
-    { name: 'M Stock', accounts: '7000+', since: '2021', logo: downloadLogo1 },
-    { name: 'Groww', accounts: '3000+', since: '2021', logo: downloadLogo2 },
-    { name: 'AU Finance Bank', accounts: '4000+', since: '2021', logo: downloadLogo1 },
-    { name: 'Kotak Mahindra Bank', accounts: '4000+', since: '2021', logo: sbiLogo },
-    { name: 'Yes Bank', accounts: '1000+', since: '2023', logo: downloadLogo1 },
+    { name: 'Punjab National Bank', accounts: '7000+', since: '2021', logo: pnbLogo },
+    { name: 'State Bank of India', accounts: '4000+', since: '2021', logo: sbiLogo },
+    { name: 'Airtel', accounts: '3000+', since: '2021', logo: airtelLogo },
+    { name: 'BigBasket', accounts: '2500+', since: '2021', logo: bigbasketLogo },
+    { name: 'Blinkit', accounts: '2000+', since: '2021', logo: blinkitLogo },
+    { name: 'Flipkart', accounts: '6000+', since: '2021', logo: flipcartLogo },
+    { name: 'Jio', accounts: '5000+', since: '2021', logo: jioLogo },
+    { name: 'L&T', accounts: '3500+', since: '2021', logo: ltLogo },
+    { name: 'Mahindra', accounts: '3000+', since: '2021', logo: mahindraLogo },
+    { name: 'Meesho', accounts: '4000+', since: '2021', logo: meeshoLogo },
+    { name: 'Myntra', accounts: '4500+', since: '2021', logo: myntraLogo },
+    { name: 'Paytm', accounts: '8000+', since: '2021', logo: paytmLogo },
+    { name: 'PhonePe', accounts: '7000+', since: '2021', logo: phonepeLogo },
+    { name: 'Swiggy', accounts: '5500+', since: '2021', logo: swiggyLogo },
+    { name: 'Vodafone', accounts: '3000+', since: '2021', logo: vodafoneLogo },
+    { name: 'Zepto', accounts: '2000+', since: '2021', logo: zeptoLogo },
+    { name: 'Zomato', accounts: '6000+', since: '2021', logo: zomatoLogo },
   ]
 
   const purposes = [
